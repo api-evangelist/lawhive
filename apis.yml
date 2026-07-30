@@ -1,8 +1,29 @@
 aid: lawhive
-name: lawhive
-description: lawhive is a company surfaced as a portfolio company of balderton-capital, gv and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: Lawhive
+description: >-
+  Lawhive is a UK consumer legal-services marketplace that connects individuals and small businesses
+  with regulated solicitors online at fixed, transparent prices, positioned as roughly half the cost
+  of a traditional high-street law firm. Clients answer intake questions on the site, receive a quote
+  or a callback, and are matched with a vetted consultant lawyer who then runs the matter end to end
+  through the Lawhive platform, covering conveyancing, divorce and family, employment, immigration,
+  landlord and tenant, and property work. Lawhive Ltd is not a law firm and does not give legal
+  advice itself; regulated legal services are delivered by its network, including affiliate firm
+  Lawhive Legal Ltd, which is authorised and regulated by the Solicitors Regulation Authority
+  (SRA ID 8003766). The company is backed by Balderton Capital and GV. Lawhive publishes no public
+  developer API, SDK, or API documentation, so this profile captures its identity, legal and
+  compliance posture, and probed domain-security surface rather than an API contract.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/r1xfjxfs/production/e48d45447f04fcf498cba4d57947e991d31bab12-2400x1260.jpg?w=1200&fit=max&auto=format
 url: https://raw.githubusercontent.com/api-evangelist/lawhive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +31,24 @@ x-backed-by:
 - balderton-capital
 - gv
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
+x-public-api: false
+x-sra-id: '8003766'
+x-company-number: '14651095'
+x-ico-registration: ZB292127
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Legal
+- Legal Services
+- Legal Tech
+- Marketplace
+- Solicitors
+- Professional Services
+- United Kingdom
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +58,34 @@ maintainers:
 common:
 - type: Website
   url: https://lawhive.co.uk/
+- type: About
+  url: https://lawhive.co.uk/about-us
+- type: Support
+  url: https://lawhive.co.uk/faqs
+- type: SignUp
+  url: https://platform.lawhive.co.uk/sign-in
+- type: Login
+  url: https://platform.lawhive.co.uk/sign-in
+- type: TermsOfService
+  url: https://lawhive.co.uk/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://lawhive.co.uk/legal/privacy-policy
+- type: Compliance
+  url: https://lawhive.co.uk/legal/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/Lawhive
+- type: Careers
+  url: https://lawhive.co.uk/careers
+- type: Conformance
+  url: conformance/lawhive-conformance.yml
+- type: DomainSecurity
+  url: security/lawhive-domain-security.yml
+- type: Packages
+  url: packages/lawhive-packages.yml
+- type: LLMsTxt
+  url: llms/lawhive-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
