@@ -1,0 +1,50 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of https://lawhive.co.uk/.well-known/*
+host: https://lawhive.co.uk
+notes: >-
+  lawhive.co.uk is a Next.js application whose catch-all route returns HTTP 200
+  with the marketing HTML shell for ANY unmatched path. Every /.well-known/
+  probe below returned status 200 but served text/html identical to the
+  homepage — these are soft 404s, not real discovery documents. No well-known
+  document was captured and no `WellKnown` or `SecurityTxt` pointer is wired.
+  Future re-runs must compare the body/title against the homepage rather than
+  trusting the status code.
+soft_404: true
+soft_404_signature: "<title>Lawhive | Local UK Solicitors &amp; Lawyers Online</title>"
+documents: []
+probed:
+- path: /.well-known/security.txt
+  status: 200
+  content_type: text/html
+  real: false
+- path: /.well-known/openid-configuration
+  status: 200
+  content_type: text/html
+  real: false
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  content_type: text/html
+  real: false
+- path: /.well-known/api-catalog
+  status: 200
+  content_type: text/html
+  real: false
+- path: /.well-known/ai-plugin.json
+  status: 200
+  content_type: text/html
+  real: false
+- path: /llms.txt
+  status: 200
+  content_type: text/html
+  real: false
+- path: /robots.txt
+  status: 200
+  content_type: text/plain
+  real: true
+  disallow:
+  - /intake
+  - "/*/intake"
+  - /api/
+  - /onboarding/
+  sitemap: https://lawhive.co.uk/sitemap.xml

@@ -1,0 +1,48 @@
+generated: '2026-07-19'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=lawhive
+notes: >-
+  Lawhive publishes no public API and therefore ships no API client SDKs. The
+  only first-party packages found on the public registries are internal
+  code-style / linting configurations published under the @lawhive npm scope.
+  These are developer tooling, not API client libraries, so no `SDKs` pointer is
+  wired in apis.yml. PyPI, Maven Central, NuGet, pkg.go.dev, RubyGems,
+  Packagist and crates.io returned no first-party Lawhive packages.
+registries_checked:
+- npm
+- pypi
+- maven-central
+- nuget
+- pkg.go.dev
+- rubygems
+- packagist
+- crates.io
+packages:
+- language: javascript
+  registry: npm
+  name: "@lawhive/code-style"
+  version: 1.0.1
+  url: https://www.npmjs.com/package/@lawhive/code-style
+  install: npm install @lawhive/code-style
+  repository: https://github.com/Lawhive/code-style
+  official: true
+  sdk: false
+  kind: code-style
+- language: javascript
+  registry: npm
+  name: "@lawhive/eslint-config"
+  version: 1.0.0
+  url: https://www.npmjs.com/package/@lawhive/eslint-config
+  install: npm install @lawhive/eslint-config
+  official: true
+  sdk: false
+  kind: lint-config
+- language: javascript
+  registry: npm
+  name: "@lawhive/prettier-config"
+  version: 1.0.0
+  url: https://www.npmjs.com/package/@lawhive/prettier-config
+  install: npm install @lawhive/prettier-config
+  official: true
+  sdk: false
+  kind: format-config
