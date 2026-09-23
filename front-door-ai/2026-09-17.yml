@@ -1,0 +1,26 @@
+# Front Door AI Index — lawhive — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: lawhive
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: lawhive.co.uk
+  final_host: lawhive.co.uk
+  ownership: own
+  owner: lawhive
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 4
+  host_score: 4
+  density: 3.33
+  words: 1203
+  tiers:
+    agentic: 4
+    core: 0
+    model: 0
+  ambiguous: 1
+  top_terms:
+    prompts: 4
+    smart: 1
