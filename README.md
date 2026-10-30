@@ -64,26 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lawhive is a UK consumer legal-services marketplace that connects individuals and small businesses with regulated solicitors online at fixed, transparent prices. Clients answer intake questions on the site, receive a quote or a callback, and are matched with a vetted consultant lawyer who runs the matter through the Lawhive platform — conveyancing, divorce and family, employment, immigration, landlord and tenant, and property.
+Lawhive is a UK consumer legal-services marketplace that connects individuals and small businesses with regulated solicitors online at fixed, transparent prices, positioned as roughly half the cost of a traditional high-street law firm. Clients answer intake questions on the site, receive a quote or a callback, and are matched with a vetted consultant lawyer who then runs the matter end to end through the Lawhive platform, covering conveyancing, divorce and family, employment, immigration, landlord and tenant, and property work. Lawhive Ltd is not a law firm and does not give legal advice itself; regulated legal services are delivered by its network, including affiliate firm Lawhive Legal Ltd, which is authorised and regulated by the Solicitors Regulation Authority (SRA ID 8003766). The company is backed by Balderton Capital and GV. Lawhive publishes no public developer API, SDK, or API documentation, so this profile captures its identity, legal and compliance posture, and probed domain-security surface rather than an API contract.
 
-Lawhive Ltd is not a law firm and does not itself give legal advice; regulated legal work is delivered by its network, including affiliate firm Lawhive Legal Ltd, authorised and regulated by the Solicitors Regulation Authority (SRA ID 8003766). Backed by Balderton Capital and GV.
+**Areas:** Company · Legal · Legal Services · Legal Tech · Marketplace · Solicitors · Professional Services · United Kingdom · Consumer
 
-- Website: https://lawhive.co.uk/
-- Platform sign-in: https://platform.lawhive.co.uk/sign-in
-- GitHub: https://github.com/Lawhive
+## Lawhive on APIs.io
 
-## API surface
+Everything profiled for Lawhive is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lawhive/](https://apis.io/providers/lawhive/)** — or go straight to one of the APIs or properties below.
 
-Lawhive publishes **no public developer API** — no API documentation, developer portal, OpenAPI, AsyncAPI, webhook catalog, MCP server, CLI, or sandbox. Its GitHub org holds hiring exercises and internal tooling, and its `@lawhive` npm scope holds code-style configs rather than API client SDKs.
+### Published properties
 
-Note for future enrichment runs: lawhive.co.uk is a Next.js app whose catch-all route returns HTTP **200 with the marketing HTML shell for any unmatched path**. Status codes alone are not a reliable existence test — compare the page title against the homepage. See `well-known/lawhive-well-known.yml`.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Artifacts
+#### Security (1)
 
-| Artifact | File |
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lawhive Domain Security](https://apis.io/security/lawhive/lawhive-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lawhive.co.uk/)
+- [Sign up](https://platform.lawhive.co.uk/sign-in)
+- [Support](https://lawhive.co.uk/faqs)
+- [Blog](https://lawhive.co.uk/blog)
+- [Compliance](https://lawhive.co.uk/legal/privacy-policy)
+- [Terms of service](https://lawhive.co.uk/legal/terms-of-service)
+- [Privacy policy](https://lawhive.co.uk/legal/privacy-policy)
+- [GitHub](https://github.com/Lawhive)
+
+## API Evangelist rating
+
+**Kin Score 7.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| Conformance (SRA / ICO / UK GDPR) | `conformance/lawhive-conformance.yml` |
-| Domain security (probed) | `security/lawhive-domain-security.yml` |
-| Packages (first-party npm) | `packages/lawhive-packages.yml` |
-| Well-known probe results | `well-known/lawhive-well-known.yml` |
-| llms.txt | `llms/lawhive-llms.txt` |
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lawhive/](https://apis.io/providers/lawhive/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lawhive: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lawhive/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
